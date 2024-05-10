@@ -23,4 +23,4 @@ total_me = me_response.body['results'].count
 
 alert = total_group >= 8 ? '' : ''
 
-puts " #{total_me}#{total_engineering} #{alert}"
+puts " #{total_me}#{total_group} #{alert}"
